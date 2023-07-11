@@ -170,9 +170,7 @@ h6,
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
-    background: linear-gradient(to right, #00e5ff, #1200ff);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    color: white;
     font-size: 18px;
     font-weight: 600;
     outline: none;

@@ -4,9 +4,9 @@
 
 <div class="col-lg-8">
     <div class="row g-5">
+        {% for mainBlog in blogBackend %}
         <div class="col-md-6 wow fadeIn blog-card" data-wow-delay="0.1s">
 
-            {% for mainBlog in blogBackend %}
             <div class="blog-item bg-light rounded overflow-hidden">
                 <div class="blog-img position-relative overflow-hidden">
                     <img class="img-fluid" src="/{{mainBlog.blogImage}}" alt="">
@@ -24,8 +24,8 @@
             </div>
 
 
-            {% endfor %}
         </div>
+        {% endfor %}
     </div>
 </div>
                
